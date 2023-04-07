@@ -1,0 +1,157 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cairo', sans-serif;
+}
+
+
+/* navbar section */
+.navbar{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: #343a40;
+}
+
+.Lnav {
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Rnav{
+  text-decoration: none;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cat{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  padding: 8px;
+}
+
+.Lnav img {
+  width: 40px;
+  margin: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.Lnav i{
+  color: #f8f9fa;
+  font-size: 20px; 
+  padding: 8px;
+}
+
+.Rnav img{
+  width: 100px;
+}
+
+.Rnav span{
+  font-size: 16px;
+  color: #f8f9fa;
+  font-family: 'Cairo', sans-serif;
+}
+.Rnav i{
+  color: #f8f9fa;
+  font-size: 20px; 
+  padding: 16px;
+}
+
+
+/* header section main page*/
+
+.head_img{
+  position: relative;
+  /* border: 1px solid red; */
+  z-index: -1;
+  top: 60px;
+  width: 100%;
+  height: 20%;
+}
+
+.head_img img{
+  width: 100%;
+  height: 10%;
+}
+
+.intro {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  /* border: 1px solid red; */
+  top: 40%;
+  left: 25%;
+  padding: 20px;
+}
+
+.intro h1{
+  font-size: 42px;
+  font-weight: 500;
+  padding: 20px;
+  color: #343a40;
+}
+
+.intro h3{
+  font-size: 24px;
+  font-weight: 500;
+  padding: 20px;
+  color: #343a40;
+}
+
+.search_div{
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 20px;
+}
+
+.search_div input {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  border: none;
+  background-color: #f8f9fa;
+  padding: 30px 310px;
+  outline: none;
+}
+
+.search_div a button{
+  position: absolute;
+  text-decoration: none;
+  border: none;
+  color: #f8f9fa;
+  background-color: #52b035;
+  padding: 20px 30px;
+  top: 10px;
+  left: 10px;
+}
+
+::placeholder {
+  color: #343a40;
+  position: absolute;
+  left: 75%;
+}
+
+/* start Category section  */
+
+.category{
+  position: relative;
+  top: 100px;
+  border: 1px solid red;
+}
